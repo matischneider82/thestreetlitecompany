@@ -1,0 +1,106 @@
+#circlelogo {
+  max-height: 50px;
+  pointer-events: none;
+}
+#navlink {
+  float: right;
+}
+#backtt {
+  display: table-row;
+  position: relative;
+  background-color: rgba(66, 83, 235, 0.1);
+  text-decoration: none;
+  color: inherit;
+  float: left;
+  margin: auto;
+  font-weight: 200;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility .3s linear, opacity .3s linear;
+  -moz-transition: visibility .3s linear, opacity .3s linear;
+  transition: visibility .3s linear, opacity .3s linear;
+}
+#footercontain {
+
+}
+
+#address {
+  float: left;
+
+}
+
+#icons {
+  float:right;
+  margin-top: 3px;
+}
+
+.footercontent {
+  height: 100%;
+}
+
+.circlelink {
+  margin: auto;
+  padding: 0;
+  -webkit-transition: background .3s ease-in-out, padding .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out, padding .3s ease-in-out;
+  transition: background .3s ease-in-out, padding .3s ease-in-out;
+  height: 50px;
+}
+@media(max-width:767px) {
+  .circlelink {
+
+  }
+}
+.circlelinksmall {
+
+}
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  z-index: 1;
+}
+.bgOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/towel.jpg") no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  display: inline-flex;
+  z-index: 1;
+  -webkit-filter: blur(2px);
+}
+.whiteOverlay {
+  position: relative;
+  display: inline-table;
+  width: 80%;
+  height: 45%;
+  background: rgba(230, 230, 230, 0.45);
+  background-position: center;
+  z-index: 2;
+  top: 30%;
+  border-radius: 15px;
+  -webkit-filter: blur(20px);
+}
+.vectorOverlay {
+  position: absolute;
+  background: url("../img/slogan.svg") no-repeat center center;
+  background-size: contain;
+  background-position: center;
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: inline-flex;
+  z-index: 3;
+  right: 15%
+}
